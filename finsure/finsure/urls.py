@@ -17,6 +17,6 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('finsure/', include('lending.urls')),
-    path('admin/', admin.site.urls),
+    path("finsure/", include("lending.urls")),
+    path("admin/", admin.site.urls),
 ]
